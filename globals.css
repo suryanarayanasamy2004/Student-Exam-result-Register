@@ -1,0 +1,98 @@
+/* ---------- GLOBAL ---------- */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+h2 {
+  color: #34495e;
+}
+
+/* ---------- CONTAINER ---------- */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ---------- FORM ---------- */
+form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* ---------- BUTTON ---------- */
+button {
+  padding: 10px 15px;
+  border: none;
+  background: #3498db;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+button:nth-child(2) {
+  background: #e74c3c;
+}
+
+button:nth-child(2):hover {
+  background: #c0392b;
+}
+
+/* ---------- TABLE ---------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background: white;
+}
+
+table th {
+  background: #2c3e50;
+  color: white;
+  padding: 10px;
+}
+
+table td {
+  text-align: center;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+/* ---------- EDIT FORM ---------- */
+.edit-form {
+  margin-bottom: 20px;
+  background: #ecf0f1;
+  padding: 15px;
+  border-radius: 8px;
+}
